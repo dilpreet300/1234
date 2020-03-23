@@ -1,0 +1,20 @@
+Ans1.
+For the first problem i have a model in which
+3 regression models that are xgboost regressor,
+random forest regressor and gradient boosting regressor
+and i have stacked together to avoid overfitting of a
+single model i have used mean squared error as loss
+function and i have tried to minimize it for the catogorical 
+features i have used one hot encoder as a transformation
+and missing values in continous features are replaced by there
+mean and categorical by most frequently occuring value
+
+Ans 2.
+In this first i have predicted the value of diuresis on 27 march
+using RNN in which i have used LSTM blocks with dropout layers for
+regularization and a dense layer for predicting the final value and 
+mean squared error as a loss function.I have used 5 previous values to 
+predict the 6th value.1 to 5 days are used for training and the target
+variable for training is 6th day's value.2 to 6 day's values with target
+varible as 7th day's value are used for cross validation and hyper parameter
+tuning of model using
